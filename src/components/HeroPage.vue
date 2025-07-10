@@ -58,7 +58,7 @@
 </template>
 
 <script setup>
-import gsap from "gsap";
+import { gsap } from "gsap";
 import TextPlugin from "gsap/TextPlugin";
 gsap.registerPlugin(TextPlugin);
 import { onMounted } from "vue";
